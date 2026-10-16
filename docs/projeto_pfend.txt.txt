@@ -1,0 +1,59 @@
+Gerenciador operacional
+Proposta do projeto
+Desenvolva uma aplicação web que organiza e gerencia algo profissionalmente. Você deverá escolher 
+o tema, definir a necessidade atendida e implementar um gerenciador operacional com Next.js, 
+integrado a uma API em Node.js com Express.
+A aplicação deve permitir que o usuário consulte e mantenha os registros de forma simples. O tema e 
+a apresentação da interface serão definidos por você, respeitando o escopo e os requisitos gerais 
+desta atividade.
+Possibilidades de aplicação
+Tema
+Exemplo de aplicação
+EPIs
+Gerenciar um catálogo de equipamentos de proteção individual, com tipo, tamanho e 
+quantidade disponível.
+Eventos
+Organizar eventos, com título, data, local e descrição.
+Notícias
+Gerenciar notícias, com título, categoria, conteúdo e data.
+Produtos
+Organizar produtos, com nome, categoria, preço e quantidade.
+Tarefas
+Acompanhar tarefas, com descrição, prioridade e situação.
+Chamados
+Registrar solicitações de atendimento, com assunto, descrição e situação.
+Equipamentos
+Manter registros de equipamentos, com identificação, tipo, localização e condição.
+Treinamentos
+Organizar treinamentos, com título, carga horária, data e descrição.
+Os exemplos são referências. Você poderá propor outro tema; os campos de cada registro deverão ser 
+escolhidos de acordo com a necessidade da aplicação.
+Escopo
+O projeto deverá gerenciar um único tipo principal de registro. A execução será local, com dados em 
+memória no Express.
+O gerenciador de EPIs, por exemplo, pode manter os registros dos equipamentos. Controle de 
+entregas por funcionário, cadastro de fornecedores e compras ampliariam o escopo. Em eventos, o 
+recorte pode ser o cadastro dos eventos, sem inscrições ou venda de ingressos.
+Programação Front-End 01  |  1
+Requisitos e desenvolvimento
+Requisitos gerais
+1. Gerenciar os registros
+Permitir cadastrar, listar, editar e excluir os registros do tema escolhido. Os campos e as informações 
+apresentadas deverão fazer sentido para o usuário da aplicação.
+2. Desenvolver o front-end em Next.js
+Utilizar o App Router para organizar as páginas e componentes para estruturar a interface e reutilizar 
+os elementos que se repetem.
+3. Integrar com Node.js e Express
+As operações deverão consumir a API desenvolvida em Express. Os registros serão armazenados em 
+um array no back-end; ao reiniciar a API, os dados retornarão ao estado inicial.
+4. Entregar uma interface utilizável
+Organizar a navegação e os formulários, validar os campos necessários e apresentar mensagens 
+claras de sucesso ou erro. A interface deverá funcionar em computador e celular.
+Proposta inicial
+No início da primeira aula, apresente ao docente uma descrição breve com o nome do projeto, o 
+objetivo, o usuário principal e os dados que serão gerenciados.
+Entrega e avaliação
+Entregue o código do front-end e do back-end. Demonstre o funcionamento da aplicação.
+A avaliação considerará o atendimento aos requisitos, a organização do código e a compreensão do 
+funcionamento da solução. A escolha do tema e as decisões de interface fazem parte da proposta 
+individual
